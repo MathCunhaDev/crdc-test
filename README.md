@@ -23,7 +23,7 @@ Pasta onde ficam todos os arquivos estáticos da aplicação, imagens, svgs, fon
 
 #### Components
 
-Uma das pastas da arquitetura do projeto, essa pasta possui todos os componentes visuais que recebem e utilizam as props através da controller.
+Representa a camada **View** do MVC, essa pasta possui todos os componentes visuais que recebem e utilizam as props através da controller.
 
 #### Models
 
@@ -32,6 +32,10 @@ Aqui ficam todas as tipagens necessárias dos componentes, mappers, requisiçõe
 #### Store
 
 Essa pasta representa a **Model** do MVC, ela contém todas as requisições para API's externas, regras de negócios, ContextAPI's, estados e dados, os providers necessários e os mappers.
+
+### Views
+
+Aqui é onde estão as Views do projeto e também a camada de **Controller**.
 
 #### Styles
 
